@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Book.create(title: "The Great Gatsby", author: "F. Scott Fitzgerald", genre: "Fiction", published_year: 1925)
+Book.create(title: "To Kill a Mockingbird", author: "Harper Lee", genre: "Fiction", published_year: 1960)
+Book.create(title: "1984", author: "George Orwell", genre: "Dystopian", published_year: 1949)
+Book.create(title: "Pride and Prejudice", author: "Jane Austen", genre: "Romance", published_year: 1813)
+Book.create(title: "The Catcher in the Rye", author: "J.D. Salinger", genre: "Fiction", published_year: 1951)
